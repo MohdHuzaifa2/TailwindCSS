@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tailwind CSS</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+  <div class="main w-full h-screen bg-white font-['Inter']">
+    <div class="container flex flex-col h-screen mx-auto">
+      <div class="navbar flex items-center justify-between w-full px-4 py-6">
+        <h3 class="font-semibold">Huzaifa</h3>
+        <div class="links gap-10 hidden lg:flex">
+          <a class="text-sm" href="#">Works</a>
+          <a class="text-sm opacity-60" href="#">Services</a>
+          <a class="text-sm opacity-60" href="#">Pricing</a>
+          <a class="text-sm opacity-60" href="#">Contact</a>
+        </div>
+        <ion-icon name="menu-outline" class="lg:hidden"></ion-icon>
+      </div>
+      <div class="hero w-full grow flex flex-col items-center max-w-2xl gap-1 mx-auto justify-center">
+        <div class="image w-24 h-24 lg:w-32 lg:h-32 rounded-full bg-sky-300 overflow-hidden">
+          <img src="./image-removebg-preview.png" alt="Zyro" class="w-full-h-full object-cover">
+        </div>
+        <h2 class="font-medium mt-4 text-xl">Hi, I'm Huzaifa 👋</h2>
+        <h1 class="w-3/4 text-4xl font-medium my-3 text-center">Building digital products, brands and experience.</h1>
+        <p class="text-center w-2/3 leading-5 my-2">a <span class="font-semibold">Product Designer</span> and <span class="font-semibold">Visual Developer</span> in SF. I specialize in UI/UX Design, Responsive Web Design, and Visual Development</p>
+        <button class="px-5 py-4 bg-black text-center text-sm my-3 text-white rounded-full uppercase font-semibold">Connect With Me</button>
+      </div>
+    </div>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+
+</html>
